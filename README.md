@@ -1,1 +1,6 @@
 # Pemrograman_AldinoFairuz_Obsidian_TLS26
+# 1. Simulasi Eliminasi Astronot (Dynamic Josephus Problem)
+Program C++ ini adalah variasi adaptif dari teka-teki logika klasik Josephus Problem. Algoritma mensimulasikan proses eliminasi sekelompok astronot dalam formasi melingkar untuk mencari satu orang terakhir yang bertahan hidup. Keunikan dari kode ini terletak pada nilai langkah (K) yang bersifat dinamis; setiap kali seorang astronot tereliminasi, jarak langkah pada putaran berikutnya akan berubah secara otomatis. Jika ID astronot yang gugur bernilai genap, langkah bertambah 2, sedangkan jika ganjil, langkah berkurang 1 (dengan batas minimum 2). Program ini juga mencetak log urutan eliminasi secara mendetail dari awal hingga akhir.
+
+# 2. Enkripsi Teks Berantai (Custom Autokey Cipher)
+Program C++ ini mengimplementasikan algoritma kriptografi sederhana menggunakan metode pergeseran alfabet (Modulo 26). Proses enkripsi ini beroperasi dengan sistem berantai, di mana huruf yang sedang diproses akan digeser berdasarkan nilai dari huruf asli tepat sebelumnya. Karakter non-alfabetik (seperti spasi, angka, dan tanda baca) dibiarkan dalam bentuk aslinya tanpa dienkripsi dan secara otomatis me-reset nilai pergeseran rantai kembali ke nol. Hal ini menciptakan pola sandi yang unik dan sangat bergantung pada urutan teks aslinya.
